@@ -1,0 +1,30 @@
+{
+  "name": "imgwatermark",
+  "description": "imgwatermark merupakan aplikasi web menggunakan Vue 3 dan watermarkjs yang berguna untuk memberi Watermark berupa teks pada gambar supaya foto/gambar mu gak mudah dicolong orang. Rekomen untuk yang mau upload foto selfie dengan ktp.",
+  "version": "1.0.0",
+  "license": "MIT",
+  "author": "fahmiegerton",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "serve": "vite preview"
+  },
+  "dependencies": {
+    "@tailwindcss/typography": "^0.4.1",
+    "daisyui": "^1.16.2",
+    "vue": "^3.2.16",
+    "vue3-colorpicker": "^1.0.8",
+    "vue3-file-selector": "^1.0.1",
+    "watermarkjs": "^2.1.1"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^1.9.3",
+    "autoprefixer": "^10.4.0",
+    "postcss": "^8.3.11",
+    "pug": "^3.0.2",
+    "tailwindcss": "^2.2.19",
+    "vite": "^2.6.4",
+    "vite-plugin-pwa": "^0.11.3",
+    "workbox-precaching": "^6.3.0"
+  }
+}
